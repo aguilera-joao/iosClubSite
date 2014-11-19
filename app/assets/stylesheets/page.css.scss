@@ -1,0 +1,43 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+
+  background-color: slategray;
+  border: 1px solid;
+  height: 50px;
+  /*border-radius: 25px; */
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+  list-style-type: none;
+  width: 150px;
+  float: left;
+  border-right: 1px solid #CCC;
+  text-align: center;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  display: block;
+
+}
+
+nav ul li a:hover {
+
+  color: lightgrey;
+}
